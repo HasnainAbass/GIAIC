@@ -1,0 +1,29 @@
+/*specisly for file index8.html */
+
+p{
+    color: green;
+}
+.hasnain{ 
+    color: chocolate;
+}
+h3{ 
+  color: blue;  
+}
+.defination{
+    color: lawngreen;
+}
+#a2b{
+    color: crimson; font-style: italic;font-weight: bolder;
+}
+h1{
+    color: red; font-style: italic;
+}
+h2{
+    color: brown;
+}
+.list{
+    color: rgb(10, 160, 35); font-style: italic;
+}
+#abb{
+    color: rgb(83, 45, 170);font-style: initial;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form</title>
+</head>
+<body>
+    <form action="herf//:www.Exemple.com/login.php">
+        <fieldset>
+            <legend>Personal Detail</legend>
+            <p>
+                First Name:
+            <input type="text" name="First Name" size="15px" maxlength="30px" placeholder="enter name" required> 
+                Last Name:
+            <input type="text" name="Last Name" size="15px" maxlength="30px" placeholder="enter name" required> 
+            </p>
+            <p><label>
+                Gender:
+                <input type="radio" name="Gender" value="m">Mail
+                </label>
+                <label>
+                <input type="radio" name="Gender" value="f">Femail
+                </label>
+            </p>
+            <p>
+                Date Of Borth:
+                <input type="date" name="dob">
+            </p>
+            <p>
+                Enter your E-Mail:
+                <input type="email" name="email" placeholder="your E-Mail">
+            </p>
+            <p>
+                Nationality:
+                </p>
+                <select name="contries" multiple>
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="USA">USA</option>
+                    <option value="Chaina">Chaina</option>
+                    <option value="Chanada">Chanada</option>
+                    <option value="UAE">UAE</option>
+                    <option value="Malisha">Malisha</option>
+                    <option value="Japan">Japan</option>
+                </select>
+            </fieldset>
+            <p>
+               your Password;
+                <input type="password" name="password" size="15px" maxlength="30px" placeholder="enter password" required>
+                Re-Enter password:
+                <input type="password" name="password" size="15px" maxlength="30px" placeholder="enter password" required>
+            </p>
+        <p>
+            Intersts:
+            <br/>
+            <input type="checkbox" name="Intersts" value="main"> Main's clothing
+            <input type="checkbox" name="Intersts" value="womain"> womain clothing
+            <input type="checkbox" name="Intersts" value="acc"> accesseries
+            <input type="checkbox" name="Intersts" value="eltr"> electronics
+            <input type="checkbox" name="Intersts" value="elt"> electrical
+        </p>
+        <p>
+            comments:
+            </p>
+            <textarea name="comments" rows="4" cols="30" placeholder="please enter your comments"></textarea>
+            <p>
+                Upload your picture:
+            </p>
+            <input type="file" name="dp">
+            <br/><br/>
+            <input type="submit" value="Upload">
+            
+            <input type="submit">
+            <br/><br/>
+            <input type="image" src="images.png" width="115" height="50">
+    </form>
+</body>
+</html>
